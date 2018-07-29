@@ -1,0 +1,74 @@
+body {
+  background-color: #fcfdff;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Index */
+.jumbotron{
+    height: 100vh;
+    background-color: #f8fcfe;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 3em;
+}
+
+.typewrite {
+  font-size: 3em;
+}
+
+.img_container {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+img {
+  border-radius: 50%;
+  display: block;
+  width: 100%;
+}
+
+#bootstrap-overides .navbar {
+  background-color: #f8fcfe;
+}
+
+/* About Me */
+blockquote {
+  border-left: 2px solid grey;
+  padding-left: 2rem;
+  font-size: 3rem;
+}
+
+h1 {
+  font-size: 6rem;
+}
+/*#icon{
+  position: absolute;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px; 
+}*/
+/*.typewriter h1 {
+  color: black;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation 
+  border-right: .15em solid orange; /* The typwriter cursor
+  white-space: nowrap; /* Keeps the content on a single line
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens
+  letter-spacing: .15em; /* Adjust as needed 
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect 
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect 
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}*/
